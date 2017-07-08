@@ -45,6 +45,11 @@ setup(
     # simple. Or you can use find_packages().
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
 
+    # Dependencies
+    install_requires=[
+        'beautifulsoup4==4.6.0',
+        'requests==2.13.0'
+    ],
 
     classifiers=[
         'Development Status :: 3 - Alpha',
