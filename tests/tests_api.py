@@ -1,6 +1,6 @@
 import unittest
-from bandecoapi.api.api import get_menu
-from bandecoapi.cardapio.cardapio import Cardapio
+from bandecoapi.api import get_menu
+from bandecoapi.cardapio import Cardapio
 from datetime import datetime
 
 
@@ -104,5 +104,9 @@ class TestArguments(unittest.TestCase):
         self.assertEqual(res["menu"]["lunch"], card.lunch)
 
 
-if __name__ == '__main__':
+def run_tests():
     unittest.main()
+
+
+if __name__ == '__main__':
+    run_tests()
