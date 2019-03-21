@@ -23,7 +23,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0',
+    version='1.01',
 
     description="API to get menus from Unicamp's bandeco",
     long_description=long_description,
@@ -47,8 +47,8 @@ setup(
 
     # Dependencies
     install_requires=[
-        'beautifulsoup4==4.6.0',
-        'requests==2.13.0'
+        'beautifulsoup4==4.7.0',
+        'requests==2.21.0'
     ],
 
     classifiers=[
