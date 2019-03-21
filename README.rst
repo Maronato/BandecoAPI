@@ -8,10 +8,10 @@ run `pip install bandecoapi`
 
 ## Usage
 
-The main endpoint is the `bandecoapi.api.api.get_menu` function.
+The main endpoint is the `bandecoapi.api.get_menu` function.
 
 ```
-bandecoapi.api.api.get_menu()
+bandecoapi.api.get_menu()
 
 Fetch menu from Unicamp's servers
 
@@ -31,7 +31,7 @@ Returns:
 
 Example:
 ```Python
->>> from bandecoapi.api import api
+>>> from bandecoapi import api
 >>> menus = ["breakfast", "lunch"]
 >>> days_delta = 2
 >>> api.get_menu(menus=menus, days_delta=days_delta)
