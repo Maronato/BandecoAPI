@@ -48,7 +48,7 @@ setup(
     # Dependencies
     install_requires=[
         'beautifulsoup4==4.7.0',
-        'requests==2.21.0'
+        'requests==2.31.0'
     ],
 
     classifiers=[
